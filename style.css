@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #444;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button, .btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background: #45a049;
+}
+
+.error {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #008000;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.dashboard-options {
+    margin: 20px 0;
+}
+
+.dashboard-options a {
+    margin-right: 10px;
+}
+
+.logout {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff0000;
+    text-decoration: none;
+}
+.btn-confirm {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-confirm:hover {
+    background-color: #45a049;
+}
+
+.btn-reject:hover {
+    background-color: #d32f2f;
+}
+.status-pending {
+    color: #FFA500; /* Orange */
+    font-weight: bold;
+}
+.status-confirmed {
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+}
+.status-canceled {
+    color: #f44336; /* Red */
+    font-weight: bold;
+}
+.status-completed {
+    color: #2196F3; /* Blue */
+    font-weight: bold;
+}
